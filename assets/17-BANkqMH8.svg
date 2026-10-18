@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <radialGradient id="silver" cx="36%" cy="28%" r="85%"><stop stop-color="#e8ebed"/><stop offset=".55" stop-color="#cdd3db"/><stop offset="1" stop-color="#a3aebb"/></radialGradient>
+    <radialGradient id="night"><stop stop-color="#697383" stop-opacity=".12"/><stop offset="1" stop-color="#7c8797" stop-opacity=".08"/></radialGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="4"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer></filter>
+  </defs>
+  <circle cx="80" cy="80" r="48" fill="url(#night)" stroke="#b8c2d0" stroke-opacity=".16" stroke-width=".6"/>
+  <g transform="translate(160 0) scale(-1 1)"><g filter="url(#glow)"><path d="M80 32A48 48 0 0 1 80 128A46.08 48 0 0 1 80 32Z" fill="url(#silver)"/></g><path d="M80 32A48 48 0 0 1 80 128A46.08 48 0 0 1 80 32Z" fill="url(#silver)"/></g>
+</svg>
